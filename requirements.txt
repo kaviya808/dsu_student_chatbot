@@ -1,0 +1,28 @@
+# DSU Student Assistant - Python packages
+# Install with:  pip install -r requirements.txt
+
+# --- app (app.py) ---
+streamlit
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-ollama
+langchain-text-splitters
+faiss-cpu
+sentence-transformers
+reportlab
+
+# --- indexing (ingest.py) ---
+# pymupdf4llm 2.0 is an empty placeholder package, so stay on 1.x
+pymupdf4llm<2
+
+# --- website crawler (crawl_website.py) ---
+requests
+beautifulsoup4
+pillow
+pymupdf
+python-docx
+openpyxl
+python-pptx
+# optional: OCR for images/scanned PDFs (also needs the Tesseract program installed on Windows)
+pytesseract

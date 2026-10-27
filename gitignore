@@ -1,0 +1,27 @@
+# --- Python virtual environment (it lives in the project root) ---
+/Include/
+/Lib/
+/Scripts/
+/etc/
+/share/
+/pyvenv.cfg
+.venv/
+venv/
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+
+# --- Generated data (rebuild with crawl_website.py + ingest.py) ---
+/faiss_index/
+/data/
+
+# --- Secrets / local settings ---
+.env
+.streamlit/secrets.toml
+
+# --- Editor / OS files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
